@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul{
+  border: 3px solid red ;
+  background-color: bisque;
+  /* width: fit-content;/ */
+}
+li{
+  list-style-type: none;
+ 
+}
+button{
+  color:white ;
+  background: black;
+  border: 0px;
+  border-radius: 15px;
+  height: 30px ;
+  cursor: pointer;
+}
+
+table.th,td{
+  border: 2px solid red;
+}
+
+.h1{
+  color: blueviolet;
 }
